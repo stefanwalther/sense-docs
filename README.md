@@ -2,6 +2,18 @@
 
 > A collection of Qlik Sense documents/apps - just for testing purposes.
 
+## Install
+
+```sh
+$ docker pull stefanwalther/sense-docs
+```
+
+Link to image on Docker Hub
+
+## Usage
+
+The documents are stored in the `/opt/sense-docs/docs` directory inside the image.
+
 ## Motivation
 
 Just a few of the common demo Qlik Sense documents, most of them downloaded from the demo area of Qlik Sense Cloud.
