@@ -1,6 +1,6 @@
 FROM busybox
 
-ENV HOME /sense-docs/docs
+ENV HOME /opt/sense-docs/docs
 RUN mkdir -p $HOME
 WORKDIR $HOME
 
