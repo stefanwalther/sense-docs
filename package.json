@@ -2,12 +2,9 @@
   "name": "sense-docs",
   "version": "0.2.0",
   "description": "A collection of Qlik Sense documents/apps - just for testing purposes.",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "d-build": "docker build -t stefanwalther/sense-docs .",
-    "d-run": "docker run -it stefanwalther/sense-docs",
-    "docs": "docker run --rm -v ${PWD}:/opt/verb stefanwalther/verb"
+    "d-run": "docker run -it stefanwalther/sense-docs"
   },
   "repository": {
     "type": "git",
